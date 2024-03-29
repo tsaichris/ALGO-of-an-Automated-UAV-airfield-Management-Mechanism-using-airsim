@@ -1,0 +1,1 @@
+C:\Users\User\Desktop\airsim\Blocks\WindowsNoEditor\Blocks.exe -settings="C:\Users\User\Desktop\airsim\settings_test2.json"

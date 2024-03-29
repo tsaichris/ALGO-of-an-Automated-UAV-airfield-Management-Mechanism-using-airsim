@@ -1,0 +1,23 @@
+{
+	"SettingsVersion": 1.2,
+	"SimMode": "Multirotor",
+	"Recording": {
+		"RecordOnMove": false,
+		"RecordInterval": 0.05,
+		"Folder": "C:/Users/User/Desktop/airsim/loggers",
+		"Enabled": false,
+		"Cameras": []
+	  },	
+	"Vehicles": {
+		"Drone1": {
+		  "VehicleType": "SimpleFlight",
+		  "X": 0, "Y": 0, "Z": 0, "Yaw": 0
+		  
+		},
+		"Drone2": {
+		  "VehicleType": "SimpleFlight",
+		  "X": 2, "Y": 0, "Z": 0, "Yaw":0
+		 
+		}
+    }
+}
