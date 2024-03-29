@@ -15,7 +15,7 @@
 ### 步驟
 
 1. git clone this repo：
-git clone [https://github.com/tsaichris/MyProject.git](https://github.com/tsaichris/ALGO-of-an-Automated-UAV-airfield-Management-Mechanism-using-airsim.git)
+git clone https://github.com/tsaichris/ALGO-of-an-Automated-UAV-airfield-Management-Mechanism-using-airsim.git
 2. 遵循 [AirSim 安裝指南](https://github.com/Microsoft/AirSim) 設置 AirSim 環境。
 
 ## 使用方法
