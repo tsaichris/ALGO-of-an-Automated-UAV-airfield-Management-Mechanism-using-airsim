@@ -19,14 +19,18 @@ git clone https://github.com/tsaichris/ALGO-of-an-Automated-UAV-airfield-Managem
 2. 遵循 [AirSim 安裝指南](https://github.com/Microsoft/AirSim) 設置 AirSim 環境。
 
 ## 使用方法
+1. 從airsim官網下載地圖，例如Blocks
+2. 設置setting.json 編輯無人機設定
+3. 直接使用設定檔setting.json打開地圖，例如Blocks.exe，或用自行設定的.json檔案打開，如:
+C:\Users\User\Desktop\airsim\Blocks\WindowsNoEditor\Blocks.exe -settings="C:\Users\User\Desktop\airsim\settings_test1.json"
+4. 在multiDrone.py 內設定無人機數量(對應.json檔案內的數量)、設置飛行意圖(EX:drone1_intention = "Departure"
+    drone2_intention = "Approach")、或到FlightPath.py內的FlightPath_OD設定各意圖的起始點與終點(Class:airsim.types.GpsData)
+5. 運行multiDrone.py(請確保地圖.exe有同時運行)
 
-啟動您的 AirSim 環境，然後運行：
-
-python my_project_script.py
 
 ## 引用 AirSim
 
-本項目使用了 Microsoft 的 AirSim 模擬平台。感謝 AirSim 團隊提供的強大工具和文檔。您可以在其 [GitHub 存儲庫](https://github.com/Microsoft/AirSim) 中找到更多關於 AirSim 的信息。
+本項目使用了 Microsoft 的 AirSim 模擬平台。感謝 AirSim 團隊提供的強大模擬工具和文檔。您可以在其 [GitHub 存儲庫](https://github.com/Microsoft/AirSim) 或從[https://microsoft.github.io/AirSim/api_docs/html/#airsim.types.GpsData ](https://microsoft.github.io/AirSim/api_docs/html/) 內查看可用之API
 
 
 ## 版權與許可證
