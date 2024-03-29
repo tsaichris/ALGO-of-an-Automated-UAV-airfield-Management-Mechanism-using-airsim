@@ -30,7 +30,7 @@ C:\Users\User\Desktop\airsim\Blocks\WindowsNoEditor\Blocks.exe -settings="C:\Use
 
 ## 引用 AirSim
 
-本項目使用了 Microsoft 的 AirSim 模擬平台。感謝 AirSim 團隊提供的強大模擬工具和文檔。您可以在其 [GitHub 存儲庫](https://github.com/Microsoft/AirSim) 或從[https://microsoft.github.io/AirSim/api_docs/html/#airsim.types.GpsData ](https://microsoft.github.io/AirSim/api_docs/html/) 內查看可用之API
+本項目使用了 Microsoft 的 AirSim 模擬平台。感謝 AirSim 團隊提供的強大模擬工具和文檔。您可以在其 [GitHub 存儲庫](https://github.com/Microsoft/AirSim) 或從[airsim 1.8.1 documentation](https://microsoft.github.io/AirSim/api_docs/html/) 內查看可用之API
 
 
 ## 版權與許可證
